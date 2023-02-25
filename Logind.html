@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logind Website</title>
+</head>
+<body>
+  <style>
+    body {
+      overflow-x: hidden;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background: -webkit-radial-gradient(left top, circle cover,  rgba(12, 180, 206, 0.9)5%,  rgba(12, 180, 206, 0.9) 50%, rgba(12, 180, 206, 0.9) 85%);
+    }
+    h2 {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      position: relative;
+      top: 60px;
+      left: 110px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    form {
+      overflow: hidden;
+      border-radius: 4px;
+      margin-left: 60px;
+      margin-top: 15px;
+      width: 1100px;
+      height: 550px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 2px 2px 10px #5b5757;
+    }
+    .container {
+      position: relative;
+      top: 60px;
+      left: 70px;
+    }
+    .item-logind {
+      background-color: rgb(255, 255, 255);
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      height: 30px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      transition: all .5s ease;
+    }
+    .item_email {
+      background-color: rgb(255, 255, 255);
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      height: 30px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      transition: all .5s ease;
+      
+    }
+    .item_password {
+      background-color: rgb(255, 255, 255);
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin: 20px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      height: 30px;
+      transition: all .5s ease;
+    }
+    .item_button {
+      position: relative;
+      background-color: rgb(0, 200, 255);
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      word-spacing: 2px;
+      border: none;
+      top: 30px;
+      left: 22px;
+      width: 335px;
+      height: 43px;
+      cursor: pointer;
+      border-radius: 3px;
+      color: white;
+    }
+    footer {
+      position: relative;
+      top: -445px;
+      left:83px;
+    }
+    a {
+      text-decoration: none;
+      color:  rgb(0, 140, 255);
+    }
+    form main img {
+      width: 700px;
+      height: 550px;
+      position: relative;
+      bottom: 382px;
+      left: 460px;
+      bottom:406px ;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius:10px;
+      -webkit-mask-image: linear-gradient(to right, transparent 10%, black 55%);
+      mask-image: linear-gradient(to right, transparent 10%, black 55%);
+      transition: .5s;
+    } 
+    button:hover {
+      background-color: rgb(4, 181, 230);
+    }
+    input:active{
+      transform: translateY(10px);
+      background-color: transparent;
+      border: none;
+    }
+    form:focus-within img {
+    transform: scale(1.5);
+    filter: hue-rotate(40deg);
+  }
+  </style>
+  <form>
+    <h2>Sign Up</h2>
+  <div class="container">
+    <input type="text" placeholder="Account name" class="item-logind">
+    <input type="email" placeholder="Gmail.com" class="item_email">
+    <input type="password" placeholder="Password" class="item_password">
+    <button type="submit" class="item_button">SIGN UP</button>
+  </div>
+  <main>
+    <img src="cat.png">
+  </main>
+  <footer>Liên hệ:
+    <a href="https://zqod394.github.io/GADGETHUB/" target="_blank"> Github</a>
+  </footer>
+</form>
+</body>
+</html>
